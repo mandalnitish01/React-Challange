@@ -1,0 +1,15 @@
+
+/* Media query for tablets and larger */
+@media (max-width: 768px) {
+  #wrapper {
+    width: 100%; /* Full width on smaller screens */
+    margin-left: 0; /* Remove left margin */
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  #wrapper {
+    padding: 20px; /* Add padding to adjust spacing */
+  }
+}
